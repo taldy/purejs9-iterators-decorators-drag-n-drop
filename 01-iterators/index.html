@@ -1,0 +1,76 @@
+<html>
+  <head>
+    <title>Pure.js #9 - iterators, decorators, drag-n-drop</title>
+    <style>
+      body {
+        background: #444;
+        color: #ddd;
+        margin-bottom: 100px;
+        /* font-size: 20px; */
+      }
+
+      pre {
+        margin: 70px 0;
+      }
+
+      input,
+      select,
+      textarea,
+      button {
+        font-size: 20px;
+        margin: 5px;
+      }
+
+      button,
+      textarea {
+        display: block;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Pure.js #9. Iterators</h1>
+
+    <h2>01. Array and string built in Iterators</h2>
+    <div id="container1">
+      <button class="run-array">array iterator</button>
+      <button class="run-string">string iterator</button>
+      <button class="run-dom-collection">DOM collection iterator</button>
+    </div>
+
+    <pre>/////////////////////////////////////////////////////////////////////</pre>
+
+    <h2>02. Run Iterator manually</h2>
+    <div id="container2">
+      <button class="init">init</button>
+      <button class="next">next</button>
+      <button class="run">run</button>
+    </div>
+
+    <pre>/////////////////////////////////////////////////////////////////////</pre>
+
+    <h2>03. Numbers range</h2>
+    <div id="container3">
+      <button class="init">init</button>
+      <button class="run">run</button>
+    </div>
+
+    <pre>/////////////////////////////////////////////////////////////////////</pre>
+
+    <h2>04. Canban iterator</h2>
+    <div id="container4">
+      <button class="run">run</button>
+    </div>
+
+    <pre>/////////////////////////////////////////////////////////////////////</pre>
+
+    <h2>04. Date range</h2>
+    <div id="container5">
+      <input type="text" class="start-date">
+      <input type="text" class="end-date">
+      <button class="run">run</button>
+      <button class="run-spread">run spread</button>
+    </div>
+
+    <script src="../dist/iterators.js"></script>
+  </body>
+</html>

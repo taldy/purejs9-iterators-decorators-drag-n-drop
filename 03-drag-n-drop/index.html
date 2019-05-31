@@ -1,0 +1,52 @@
+<html>
+  <head>
+    <title>Pure.js #9 - iterators, decorators, drag-n-drop</title>
+    <style>
+      body {
+        background: #444;
+        color: #ddd;
+        position: relative;
+      }
+
+      .source {
+        width: 200px;
+        padding: 20px;
+        border: solid 1px grey;
+      }
+
+      .target {
+        border: solid 1px grey;
+        padding: 20px;
+        box-sizing: border-box;
+        position: absolute;
+        top: 0;
+        right: 0;
+        height: 100%;
+        width: 300px;
+      }
+
+      [draggable] {
+        border: solid 1px #bbb;
+        width: 150px;
+        height: 100px;
+        margin: 10px;
+      }
+
+    </style>
+  </head>
+  <body>
+    <h1>Pure.js #9. Drag'n'Drop</h1>
+
+    <div class="source">
+      <h2>Source</h2>
+      <button class="add-to-source">Add block</button>
+    </div>
+
+    <div class="target">
+      <h2>Target</h2>
+    </div>
+
+
+    <script src="../dist/drag-n-drop.js"></script>
+  </body>
+</html>
